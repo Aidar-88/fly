@@ -1,0 +1,39 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    align-items: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2px;
+    width: 8rem;
+
+}
+.item a{
+    border: 1px solid #111;
+    border-radius: 7px;
+    background-color: #c15454;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 4px 0;
+}
+.stops{
+    font-size: 10px;
+}
+.layoversWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
