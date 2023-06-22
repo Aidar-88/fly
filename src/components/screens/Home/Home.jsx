@@ -37,7 +37,12 @@ const Home = () => {
 
     const filterAndSortFlights = () => {
         let filteredFlights = flights.filter((flight) =>
+            flight.origin.toLowerCase().includes(searchQuery.toLowerCase()) ||
             flight.destination.toLowerCase().includes(searchQuery.toLowerCase())
+
+
+
+
         );
 
         switch (filters.sortBy) {
