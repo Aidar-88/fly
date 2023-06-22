@@ -13,11 +13,9 @@ const Cards = ({ flights }) => {
                     </div>
                 </div>
                 <div className={styles.item}>
-                    <div></div>
                     <div>{flights.origin}</div>
                 </div>
                 <div className={styles.item}>
-                    <div></div>
                     <div>{flights.destination}</div>
                 </div>
                 <div className={styles.item}>
