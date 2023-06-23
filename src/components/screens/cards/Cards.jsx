@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "../cards/cards.module.css";
+import styles from '../cards/Cards.module.css'; 
 import uuid from 'react-uuid';
 
 const Cards = ({ flights }) => {
